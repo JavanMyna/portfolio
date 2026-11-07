@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fredricko Emmory Pinso – Resume</title>
+<meta name="description" content="Resume of Fredricko Emmory Pinso, aspiring software developer and Computer Science student (Intelligent Computing) at Universiti Sains Malaysia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f6f6f9;--ink:#1d1d27;--muted:#5d5d6e;--band:#3a3a4c;--band-muted:#cfcfdb;
+  --accent:#4b4fb0;--rule:#dcdce4;--side:#e9e8ee;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#15151c;--ink:#ececf3;--muted:#a4a4b8;--band:#262633;--band-muted:#b4b4c6;
+    --accent:#9da1f5;--rule:#34344a;--side:#1d1d28;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#15151c;--ink:#ececf3;--muted:#a4a4b8;--band:#262633;--band-muted:#b4b4c6;
+  --accent:#9da1f5;--rule:#34344a;--side:#1d1d28;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 Poppins,"Segoe UI",system-ui,sans-serif;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--band);z-index:10}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{background:var(--band);color:#fff;padding:48px 0 40px}
+h1{margin:0;font-size:clamp(2.2rem,7vw,3.75rem);line-height:1.05;font-weight:300;letter-spacing:-.01em}
+h1 b{font-weight:700}
+.role{margin:14px 0 0;max-width:34rem;color:var(--band-muted)}
+.contact{list-style:none;margin:24px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 28px}
+.contact a{color:#fff;text-underline-offset:3px}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.contact a:focus-visible{outline-color:#fff}
+.layout{display:grid;gap:40px;padding-top:40px;padding-bottom:56px}
+.main{min-width:0}
+@media (min-width:820px){
+  .layout{grid-template-columns:280px minmax(0,1fr);gap:56px}
+  aside{grid-column:1;grid-row:1}
+  .main{grid-column:2;grid-row:1}
+}
+aside{align-self:start;background:var(--side);border-radius:6px;padding:24px}
+h2{font-size:1.05rem;font-weight:600;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid var(--accent)}
+section+section{margin-top:36px}
+h3{font-size:1rem;font-weight:600;margin:0}
+aside h3{font-size:.9rem;margin-top:14px}
+aside p{margin:2px 0 0;font-size:.92rem}
+.meta{display:flex;justify-content:space-between;gap:4px 12px;flex-wrap:wrap;color:var(--muted);font-size:.9rem}
+.item{margin-bottom:24px}
+.item:last-child{margin-bottom:0}
+.pts{margin:8px 0 0;padding-left:1.1rem}
+.pts li{margin:4px 0}
+.plain{margin:0;padding-left:1.1rem;font-size:.92rem}
+.plain li{margin:4px 0}
+.note{color:var(--muted);font-size:.85rem;margin-top:8px}
+.hero{display:flex;align-items:center;gap:24px 28px;flex-wrap:wrap}
+.hero img{width:136px;height:136px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,.3);flex:none}
+.hero .txt{flex:1 1 20rem;min-width:0}
+@media print{body::before{display:none}header{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap hero">
+    <img src="data:image/jpeg;base64,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" alt="Photo of Fredricko Emmory Pinso" width="136" height="136">
+    <div class="txt">
+    <h1><b>Fredricko</b> Emmory Pinso</h1>
+    <p class="role">Aspiring Software Developer | Computer Science Student (Intelligent Computing), USM</p>
+    <ul class="contact">
+      <li><a href="mailto:fredricko900@gmail.com">fredricko900@gmail.com</a></li>
+      <li><a href="tel:+601125272021">011-25272021</a></li>
+      <li><a href="https://javanmyna.fyi" rel="noopener">javanmyna.fyi</a></li>
+    </ul>
+    </div>
+  </div>
+</header>
+
+<main class="wrap layout">
+  <div class="main">
+
+    <section id="summary">
+      <h2>Professional summary</h2>
+      <p>Self-taught developer and incoming Computer Science student at Universiti Sains Malaysia, with five projects built from scratch, including two live websites. Experienced in JavaScript, HTML/CSS, Supabase and AI-assisted development, and in dealing with real customers through family business work. Platinum Award winner at Bio-Inovasi 2026.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="item">
+        <h3><a href="https://jessboubiecraft.com" rel="noopener">JessBoubieCraft Website</a></h3>
+        <div class="meta"><span>Designer and Developer</span><time>June 2026</time></div>
+        <ul class="pts">
+          <li>Designed and built the online catalogue for a handcrafted brass jewelry business, from layout to live site.</li>
+          <li>Adapted the website layout for mobile and desktop screens.</li>
+          <li>Built product listings and detail views to showcase handmade crafts.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <h3><a href="https://javanmyna.fyi" rel="noopener">Personal Portfolio (MytaCatalogue)</a></h3>
+        <div class="meta"><span>Designer and Developer</span><time>July 2026</time></div>
+        <ul class="pts">
+          <li>Built an interactive diorama-style portfolio with clickable hotspots, a visitor guestbook (“Sign Wall”) backed by Supabase, and visitor analytics.</li>
+          <li>Registered and set up a custom domain through Porkbun.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <h3>MChan</h3>
+        <div class="meta"><span>Development and Project Support</span><time>August 2026</time></div>
+        <ul class="pts">
+          <li>Contributed to an anonymous imageboard for Malaysian university students.</li>
+          <li>Researched MCMC compliance requirements and fixed mobile layout bugs.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <h3>Miya</h3>
+        <div class="meta"><span>Project Manager</span><time>August 2026</time></div>
+        <ul class="pts">
+          <li>Led a content moderation tool for MChan, built as a small Go service (version 1 shipped).</li>
+          <li>Implemented an HTTP API for text moderation, returning structured decisions to support MChan’s content filtering workflow.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <h3>Safe2Save</h3>
+        <div class="meta"><span>Developer</span><time>August 2026</time></div>
+        <ul class="pts">
+          <li>Built a personal finance app with JavaScript and Supabase, featuring recurring transactions, spending projections and data export.</li>
+          <li>Ran a security review of the app and fixed the issues found.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2>Work experience</h2>
+
+      <article class="item">
+        <h3>Personal Assistant, Jess Boubie Craft</h3>
+        <div class="meta"><span>Family handcrafted brass jewelry business, Sabah</span><time>2026</time></div>
+        <ul class="pts">
+          <li>Built and maintained the business’s website (jessboubiecraft.com).</li>
+          <li>Calculated and tracked stock.</li>
+          <li>Provided transportation for business operations.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <h3>Vendor Seller, Jess Boubie Craft at Borneo Native Festival</h3>
+        <div class="meta"><span>Festival vendor</span><time>2025 and 2026</time></div>
+        <ul class="pts">
+          <li>Sold products directly to festival visitors.</li>
+          <li>Spoke with international visitors, building communication and customer-handling skills.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <article class="item">
+        <h3>Universiti Sains Malaysia (USM)</h3>
+        <div class="meta"><span>Bachelor of Computer Science (Intelligent Computing), Year 1<br>Gelugor Main Campus, Penang</span><time>2026 to present</time></div>
+      </article>
+
+      <article class="item">
+        <h3>Kolej Matrikulasi Labuan</h3>
+        <div class="meta"><span>Life Science Stream<br>CGPA: 4.00</span><time>2025/2026</time></div>
+      </article>
+
+      <article class="item">
+        <h3>SMK Taman Tun Fuad</h3>
+        <div class="meta"><span>SPM: 2A+, 3A, 1A-</span><time>2024/2025</time></div>
+      </article>
+    </section>
+
+  </div>
+
+  <aside>
+    <section id="skills">
+      <h2>Skills</h2>
+      <h3>Programming</h3>
+      <p>JavaScript, HTML, CSS, Python (basic), C++ (basic)</p>
+      <h3>AI-assisted development</h3>
+      <p>Project planning, writing clear briefs for AI coding agents, reviewing and testing their output, debugging</p>
+      <h3>Software and tools</h3>
+      <p>Git, GitHub, Supabase, Cloudflare, oh-my-pi</p>
+    </section>
+
+    <section id="awards">
+      <h2>Awards and recognition</h2>
+      <p><strong>Bio-Inovasi 2026</strong>, Kolej Matrikulasi Labuan: Platinum Award, Best Booth and Judges’ Choice Award for SproutCube</p>
+    </section>
+
+    <section id="leadership">
+      <h2>Leadership and involvement</h2>
+      <ul class="plain">
+        <li>Co-Curriculum Class Representative, Kolej Matrikulasi Labuan</li>
+        <li>President, Design and Technology Club (Kelab RBT), SMK Taman Tun Fuad</li>
+        <li>Vice President, Chess Club (Kelab Catur), SMK Taman Tun Fuad</li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages spoken</h2>
+      <ul class="plain">
+        <li>English (good)</li>
+        <li>Malay (conversational)</li>
+        <li>Mandarin (understands; a few basic spoken phrases)</li>
+      </ul>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <p>Game-style music composition, photography, art (point-of-view drawings and surroundings)</p>
+    </section>
+
+    <section id="referees">
+      <h2>Referees</h2>
+      <ul class="plain">
+        <li><strong>Gan Jia Sheng</strong><br>Physics Lecturer, Kolej Matrikulasi Labuan</li>
+        <li><strong>Jassica Binti Lintanga</strong><br>Owner, Jess Boubie Craft</li>
+      </ul>
+      <p class="note">Contact details available on request.</p>
+    </section>
+  </aside>
+</main>
+
+</body>
+</html>
